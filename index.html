@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my portfolio website where I display my expertise as a developer in web development, programming languages, and software engineering.">
+    <title>Ayushi Agarwal - Portfolio</title>
+    <meta name="google-site-verification" content="IDvDqKCgGVM7Xd0FfdDghfOZJwTMWLdkfojuXXA_woI" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3 id="logo">Porfolio</h3>
+            <span id="nav-links">
+                <a href="#" class="active" style="--i:1">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#skills" style="--i:3">Skills</a>
+                <a href="#project" style="--i:4">Projects</a>
+            </span>
+        </nav>
+    </header>
+    <section id="main">
+    <section id="home">
+        <span class="intro">
+        <h3 style="--i:2">Hi, Myself</h3>
+        <h1>Ayushi Agarwal</h1>
+        <h3 style="--i:3">and I am a <span id='tag'>Developer</span></h3>
+        <p id="base_intro">Hello, and welcome to my portfolio website. I am a student at VIT Bhopal. A front end developer and an aspiring Machine Learning enthusiast</p>
+        <span id="social">
+            <a href='https://www.linkedin.com/in/ayushi20/' target="_blank"><i class='bx bxl-linkedin' style="--i:5"></i></a>
+            <a href="https://github.com/ayushi0111" target='_blank'><i class='bx bxl-github' style="--i:6"></i></a>
+            <a href="mailto:ayushi.agarwal2025@gmail.com" target="_top"><i class='bx bxl-gmail' style="--i:7"></i></a>
+        </span><br>
+        <a id="down_button" href="./Ayushi Agarwal Amazon Resume.pdf" download="Ayushi Agarwal.pdf"><button type="button">Download Resume</button></a>
+        </span>
+        <img class='profile_pic' src="./static/imgs/Ayushi.jpg" alt="Profile Picture">
+    </section>
+    </section>
+
+    <section id="about">
+        <section id="about_me">
+            <h2 class="section_heading">About Me</h2>
+            <p>
+                Hi, I'm Ayushi Agarwal, a student at VIT Bhopal pursuing my Bachelor's degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. I have a keen interest in programming and have honed my skills in Python and C++ languages.
+                <br><br>
+                I have worked on several Python-based projects, which has strengthened my understanding of the language. Additionally, I have experience in frontend development using HTML, CSS, and JavaScript. I enjoy learning new technologies and have recently been delving into the field of Machine Learning.
+                <br><br>
+                In my journey of learning Machine Learning, I have worked on several classification projects and have used Flask, a Python-based web framework, to integrate my Machine Learning programs with a frontend. I find this combination of Machine Learning and frontend development intriguing and challenging, and I am excited to continue exploring this field. 
+            </p>
+        </section>
+    </section>
+
+    <section id="skills">
+        <h2 class="section_heading">Skills</h2>
+        <div id="skill_cards">
+            <div class="cards"><img src="./static/imgs/python.avif"></div>
+            <div class="cards"><img src="./static/imgs/flask.png"></div>
+            <div class="cards"><img src="./static/imgs/cpp.png"></div>
+            <div class="cards"><img src="./static/imgs/html.webp"></div>
+            <div class="cards"><img src="./static/imgs/logo-2582747_1280.webp"></div>
+            <div class="cards"><img src="./static/imgs/js.svg"></div>
+        </div>
+    </section>
+
+    <section id="project">
+        <h2 class="section_heading">Projects</h2>
+        <div class="proj">
+            <img src='./static/imgs/music_rec.png' height="150px" width="280px">
+            
+            <p>
+                <span>Music Recommendation System<br></span>
+                •	Used Machine Learning to Predict Songs based on user’s preference <br>
+                •	Trained Model on music characteristics of over 2000 songs <br>
+                •	Frontend – HTML, CSS, JavaScript <br>
+                •	Backend – Python (Flask, sklearn, Numpy, pandas) <br>
+            </p>
+        </div>
+
+        <div class="proj">
+            <img src='./static/imgs/url_shortener.png' height="150px" width="280px">
+            
+            <p>
+                <span>URL Shortener<br></span>
+                •	Made a Full stack Website that allows users to shorten any URL with a desired keyword<br>
+                •	All keywords stored in database and redirects user to original site<br>
+                •	Tech Stack- SQlite, Flask, HTML, CSS<br>
+
+            </p>
+        </div>
+    </section>
+</body>
+</html>
